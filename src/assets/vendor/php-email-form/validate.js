@@ -1,6 +1,6 @@
 /* src/assets/vendor/php-email-form/validate.js */
 
-// Form validation script
+
 
 document.addEventListener('DOMContentLoaded', function () {
     'use strict';
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     forms.forEach(function (e) {
       e.addEventListener('submit', function (event) {
         event.preventDefault();
-        // Add your form validation logic here
+        
       });
     });
   });
